@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")//将get类型的请求映射到相应的处理方法上
     //@ResponseBody//把return后的数据返回给客户端
-    public static String sayHello(){//真正处理请求的方法12
+    public static String sayHello(){//真正处理请求的方法
         return  "hello world";
     }
     @GetMapping("/bye")
